@@ -1,4 +1,4 @@
-package act2studentinfo;
+package act3studentinfo;
 public class StudentInfo {
     //fields
     private String idNumber, firstName, lastName, course, major;
