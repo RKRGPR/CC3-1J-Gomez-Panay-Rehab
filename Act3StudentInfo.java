@@ -1,5 +1,5 @@
-package act2studentinfo;
-public class Act2StudentInfo {
+package act3studentinfo;
+public class Act3StudentInfo {
     public static void main(String[] args) {
         //object gomez
         StudentInfo gomez = new StudentInfo("CITCS", "2nd Term", "S.Y. 2018-2019");
