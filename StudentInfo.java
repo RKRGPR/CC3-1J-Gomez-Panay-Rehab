@@ -1,13 +1,15 @@
-package act3studentinfo;
+package act2studentinfo;
 public class StudentInfo {
     //fields
-    private String idNumber, firstName, lastName, course, major;
-    public String college, term, year;
+    private String idNumber, firstName, lastName;
+    public String course, major, college, term, year;
     //constructor
-    public StudentInfo(String college, String term, String year){
+    public StudentInfo(String college, String term, String year, String course, String major){
         this.college = college;
         this.term = term;
         this.year = year;
+        this.course = course;
+        this.major = major;
     }
     //accessors and mutators
     public String getIdNumber(){
@@ -27,18 +29,6 @@ public class StudentInfo {
     }
     public void setLastName(String lastName){
         this.lastName = lastName;
-    }
-    public String getCourse(){
-        return course;
-    }
-    public void setCourse(String course){
-        this.course = course;
-    }
-    public String getMajor(){
-        return major;
-    }
-    public void setMajor(String major){
-        this.major = major;
     }
     //print
     public void print(){
